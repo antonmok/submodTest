@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pdfParser" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/pdfParser" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-c verify -p test_pdfs/crash/empty-content/ps_series_7010_2109_revb_tf_sm.pdf" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="../PDF-Writer/PDFWriter" />
+					<Add directory="../tclap-1.2.1/include" />
+					<Add directory="include" />
+					<Add directory="parsing" />
+					<Add directory="encoding" />
+				</Compiler>
+				<Linker>
+					<Add library="libPDFWriter.a" />
+					<Add library="libLibAesgm.a" />
+					<Add library="libLibJpeg.a" />
+					<Add library="libLibTiff.a" />
+					<Add library="libFreeType.a" />
+					<Add library="libZlib.a" />
+					<Add directory="../PDF-Writer/Debug/PDFWriter" />
+					<Add directory="../PDF-Writer/Build/FreeType" />
+					<Add directory="../PDF-Writer/Build/LibAesgm" />
+					<Add directory="../PDF-Writer/Build/LibJpeg" />
+					<Add directory="../PDF-Writer/Build/LibTiff" />
+					<Add directory="../PDF-Writer/Build/ZLib" />
+					<Add directory="../boost_1_63_0/stage/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/pdfParser" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-c verify -p test_pdfs/crash/empty-content/ps_series_7010_2109_revb_tf_sm.pdf" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../PDF-Writer/PDFWriter" />
+					<Add directory="../tclap-1.2.1/include" />
+					<Add directory="include" />
+					<Add directory="parsing" />
+					<Add directory="encoding" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libPDFWriter.a" />
+					<Add library="libLibAesgm.a" />
+					<Add library="libLibJpeg.a" />
+					<Add library="libLibTiff.a" />
+					<Add library="libFreeType.a" />
+					<Add library="libZlib.a" />
+					<Add directory="../PDF-Writer/Build/PDFWriter" />
+					<Add directory="../PDF-Writer/Build/FreeType" />
+					<Add directory="../PDF-Writer/Build/LibAesgm" />
+					<Add directory="../PDF-Writer/Build/LibJpeg" />
+					<Add directory="../PDF-Writer/Build/LibTiff" />
+					<Add directory="../PDF-Writer/Build/ZLib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="encoding/adobe-glyph-list.h" />
+		<Unit filename="encoding/mac-expert-encoding.h" />
+		<Unit filename="encoding/mac-roman-encoding.h" />
+		<Unit filename="encoding/standard-encoding.h" />
+		<Unit filename="encoding/symbol-encoding.h" />
+		<Unit filename="encoding/win-ansi-encoding.h" />
+		<Unit filename="include/CmdHandler.h" />
+		<Unit filename="include/InsertLink.h" />
+		<Unit filename="include/ParsedPDFData.h" />
+		<Unit filename="include/RetainMemory.h" />
+		<Unit filename="include/SaveText.h" />
+		<Unit filename="include/pdfParser.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="parsing/collection-state.cpp" />
+		<Unit filename="parsing/collection-state.h" />
+		<Unit filename="parsing/font-decoding.cpp" />
+		<Unit filename="parsing/font-decoding.h" />
+		<Unit filename="parsing/multi-dict-helper.cpp" />
+		<Unit filename="parsing/multi-dict-helper.h" />
+		<Unit filename="parsing/pdf-interpreter.cpp" />
+		<Unit filename="parsing/pdf-interpreter.h" />
+		<Unit filename="parsing/placements-extraction.cpp" />
+		<Unit filename="parsing/placements-extraction.h" />
+		<Unit filename="parsing/standard-fonts-dimensions.h" />
+		<Unit filename="parsing/transformations.h" />
+		<Unit filename="src/CmdHandler.cpp" />
+		<Unit filename="src/InsertLink.cpp" />
+		<Unit filename="src/RetainMemory.cpp" />
+		<Unit filename="src/SaveText.cpp" />
+		<Unit filename="src/pdfParser.cpp" />
+		<Unit filename="test/BasicModification.cpp" />
+		<Unit filename="test/BasicModification.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
