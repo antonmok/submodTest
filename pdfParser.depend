@@ -4004,3 +4004,354 @@
 	<stdexcept>
 	<cerrno>
 
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFWriter.h
+	"EPDFVersion.h"
+	"OutputFile.h"
+	"DocumentContext.h"
+	"ObjectsContext.h"
+	"PDFRectangle.h"
+	"TiffUsageParameters.h"
+	"PDFEmbedParameterTypes.h"
+	"PDFParsingOptions.h"
+	"EncryptionOptions.h"
+	<string>
+	<utility>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/EPDFVersion.h
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/OutputFile.h
+	"EStatusCode.h"
+	<string>
+
+1495709118 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/EStatusCode.h
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/DocumentContext.h
+	"EStatusCode.h"
+	"EPDFVersion.h"
+	"IOBasicTypes.h"
+	"TrailerInformation.h"
+	"CatalogInformation.h"
+	"JPEGImageHandler.h"
+	"TIFFImageHandler.h"
+	"TiffUsageParameters.h"
+	"UsedFontsRepository.h"
+	"PDFEmbedParameterTypes.h"
+	"PDFDocumentHandler.h"
+	"ObjectsBasicTypes.h"
+	"EHummusImageType.h"
+	"PDFParsingOptions.h"
+	"EncryptionOptions.h"
+	"EncryptionHelper.h"
+	<string>
+	<set>
+	<utility>
+	<list>
+	<map>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/IOBasicTypes.h
+	<stdio.h>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/TrailerInformation.h
+	"IOBasicTypes.h"
+	"ObjectsBasicTypes.h"
+	"InfoDictionary.h"
+	<utility>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/ObjectsBasicTypes.h
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/InfoDictionary.h
+	"PDFTextString.h"
+	"PDFDate.h"
+	"MapIterator.h"
+	<string>
+	<map>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFTextString.h
+	"OutputStringBufferStream.h"
+	<string>
+	<utility>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/OutputStringBufferStream.h
+	"IByteWriterWithPosition.h"
+	"MyStringBuf.h"
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/IByteWriterWithPosition.h
+	"IByteWriter.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/IByteWriter.h
+	"IOBasicTypes.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/MyStringBuf.h
+	<sstream>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFDate.h
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/MapIterator.h
+	"ContainerIterator.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/ContainerIterator.h
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/CatalogInformation.h
+	"ObjectsBasicTypes.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/JPEGImageHandler.h
+	"JPEGImageInformation.h"
+	"ObjectsBasicTypes.h"
+	<map>
+	<string>
+	<utility>
+	<set>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/JPEGImageInformation.h
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/TIFFImageHandler.h
+	"EStatusCode.h"
+	"ObjectsBasicTypes.h"
+	"TiffUsageParameters.h"
+	<string>
+	<list>
+	<utility>
+	<tiffio.h>
+	<tiffvers.h>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/TiffUsageParameters.h
+	"CMYKRGBColor.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/CMYKRGBColor.h
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/UsedFontsRepository.h
+	"EStatusCode.h"
+	"ObjectsBasicTypes.h"
+	<string>
+	<map>
+	<utility>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFEmbedParameterTypes.h
+	"EStatusCode.h"
+	"ObjectsBasicTypes.h"
+	<list>
+	<utility>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFDocumentHandler.h
+	"PDFEmbedParameterTypes.h"
+	"PDFParser.h"
+	"PDFRectangle.h"
+	"InputFile.h"
+	"ObjectsBasicTypes.h"
+	"ETokenSeparator.h"
+	"DocumentContextExtenderAdapter.h"
+	"MapIterator.h"
+	"PDFParsingOptions.h"
+	<map>
+	<list>
+	<set>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFParser.h
+	"EStatusCode.h"
+	"PDFObjectParser.h"
+	"IOBasicTypes.h"
+	"ObjectsBasicTypes.h"
+	"RefCountPtr.h"
+	"PDFDictionary.h"
+	"IByteReaderWithPosition.h"
+	"AdapterIByteReaderWithPositionToIReadPositionProvider.h"
+	"DecryptionHelper.h"
+	"PDFParsingOptions.h"
+	<map>
+	<utility>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFObjectParser.h
+	"PDFParserTokenizer.h"
+	"EStatusCode.h"
+	"IOBasicTypes.h"
+	"IReadPositionProvider.h"
+	<list>
+	<string>
+	<utility>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFParserTokenizer.h
+	"IOBasicTypes.h"
+	"EStatusCode.h"
+	<utility>
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/IReadPositionProvider.h
+	"IOBasicTypes.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/RefCountPtr.h
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFDictionary.h
+	"PDFObject.h"
+	"PDFName.h"
+	"MapIterator.h"
+	<map>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFObject.h
+	"RefCountObject.h"
+	<string>
+	<map>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/RefCountObject.h
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFName.h
+	"PDFObject.h"
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/IByteReaderWithPosition.h
+	"IByteReader.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/IByteReader.h
+	"IOBasicTypes.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/AdapterIByteReaderWithPositionToIReadPositionProvider.h
+	"IReadPositionProvider.h"
+	"IByteReaderWithPosition.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/DecryptionHelper.h
+	"EStatusCode.h"
+	"XCryptionCommon.h"
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/XCryptionCommon.h
+	"IOBasicTypes.h"
+	"ObjectsBasicTypes.h"
+	<list>
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFParsingOptions.h
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFRectangle.h
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/InputFile.h
+	"EStatusCode.h"
+	"IByteReaderWithPosition.h"
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/ETokenSeparator.h
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/DocumentContextExtenderAdapter.h
+	"IDocumentContextExtender.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/IDocumentContextExtender.h
+	"EStatusCode.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/EHummusImageType.h
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/EncryptionOptions.h
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/EncryptionHelper.h
+	"EStatusCode.h"
+	"XCryptionCommon.h"
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/ObjectsContext.h
+	"EStatusCode.h"
+	"IndirectObjectsReferenceRegistry.h"
+	"ETokenSeparator.h"
+	"PrimitiveObjectsWriter.h"
+	"UppercaseSequance.h"
+	<string>
+	<list>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/IndirectObjectsReferenceRegistry.h
+	"EStatusCode.h"
+	"ObjectsBasicTypes.h"
+	"IOBasicTypes.h"
+	<vector>
+	<utility>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PrimitiveObjectsWriter.h
+	"ETokenSeparator.h"
+	<string.h>
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/UppercaseSequance.h
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFObjectCast.h
+	"RefCountPtr.h"
+	"PDFObject.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/ParsedPrimitiveHelper.h
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFIndirectObjectReference.h
+	"PDFObject.h"
+	"ObjectsBasicTypes.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFArray.h
+	"PDFObject.h"
+	"SingleValueContainerIterator.h"
+	<vector>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/SingleValueContainerIterator.h
+	"ContainerIterator.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFStreamInput.h
+	"PDFObject.h"
+	"IOBasicTypes.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFSymbol.h
+	"PDFObject.h"
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFReal.h
+	"PDFObject.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFModifiedPage.h
+	"EStatusCode.h"
+	"PDFRectangle.h"
+	<vector>
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PDFPage.h
+	"ObjectsBasicTypes.h"
+	"PDFRectangle.h"
+	"SingleValueContainerIterator.h"
+	"ResourcesDictionary.h"
+	<list>
+	<utility>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/ResourcesDictionary.h
+	"SingleValueContainerIterator.h"
+	"MapIterator.h"
+	"ObjectsBasicTypes.h"
+	<set>
+	<map>
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/PageContentContext.h
+	"AbstractContentContext.h"
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/AbstractContentContext.h
+	"EStatusCode.h"
+	"PrimitiveObjectsWriter.h"
+	"GraphicStateStack.h"
+	"GlyphUnicodeMapping.h"
+	"ObjectsBasicTypes.h"
+	"PDFParsingOptions.h"
+	<string>
+	<list>
+	<set>
+	<utility>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/GraphicStateStack.h
+	"GraphicState.h"
+	"EStatusCode.h"
+	<list>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/GraphicState.h
+	<string>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/GlyphUnicodeMapping.h
+	<vector>
+	<list>
+
+1495708901 /home/anton/Projects/pdfParser/PDF-Writer/PDFWriter/OutputStreamTraits.h
+	"EStatusCode.h"
+	"IOBasicTypes.h"
+

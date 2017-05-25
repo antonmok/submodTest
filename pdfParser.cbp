@@ -15,7 +15,7 @@
 				<Compiler>
 					<Add option="-std=c++11" />
 					<Add option="-g" />
-					<Add directory="../PDF-Writer/PDFWriter" />
+					<Add directory="PDF-Writer/PDFWriter" />
 					<Add directory="../tclap-1.2.1/include" />
 					<Add directory="include" />
 					<Add directory="parsing" />
@@ -28,13 +28,12 @@
 					<Add library="libLibTiff.a" />
 					<Add library="libFreeType.a" />
 					<Add library="libZlib.a" />
-					<Add directory="../PDF-Writer/Debug/PDFWriter" />
-					<Add directory="../PDF-Writer/Build/FreeType" />
-					<Add directory="../PDF-Writer/Build/LibAesgm" />
-					<Add directory="../PDF-Writer/Build/LibJpeg" />
-					<Add directory="../PDF-Writer/Build/LibTiff" />
-					<Add directory="../PDF-Writer/Build/ZLib" />
-					<Add directory="../boost_1_63_0/stage/lib" />
+					<Add directory="PDF-Writer/Debug/PDFWriter" />
+					<Add directory="PDF-Writer/Build/FreeType" />
+					<Add directory="PDF-Writer/Build/LibAesgm" />
+					<Add directory="PDF-Writer/Build/LibJpeg" />
+					<Add directory="PDF-Writer/Build/LibTiff" />
+					<Add directory="PDF-Writer/Build/ZLib" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -45,7 +44,7 @@
 				<Option parameters="-c verify -p test_pdfs/crash/empty-content/ps_series_7010_2109_revb_tf_sm.pdf" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add directory="../PDF-Writer/PDFWriter" />
+					<Add directory="PDF-Writer/PDFWriter" />
 					<Add directory="../tclap-1.2.1/include" />
 					<Add directory="include" />
 					<Add directory="parsing" />
@@ -59,12 +58,12 @@
 					<Add library="libLibTiff.a" />
 					<Add library="libFreeType.a" />
 					<Add library="libZlib.a" />
-					<Add directory="../PDF-Writer/Build/PDFWriter" />
-					<Add directory="../PDF-Writer/Build/FreeType" />
-					<Add directory="../PDF-Writer/Build/LibAesgm" />
-					<Add directory="../PDF-Writer/Build/LibJpeg" />
-					<Add directory="../PDF-Writer/Build/LibTiff" />
-					<Add directory="../PDF-Writer/Build/ZLib" />
+					<Add directory="PDF-Writer/Build/PDFWriter" />
+					<Add directory="PDF-Writer/Build/FreeType" />
+					<Add directory="PDF-Writer/Build/LibAesgm" />
+					<Add directory="PDF-Writer/Build/LibJpeg" />
+					<Add directory="PDF-Writer/Build/LibTiff" />
+					<Add directory="PDF-Writer/Build/ZLib" />
 				</Linker>
 			</Target>
 		</Build>
