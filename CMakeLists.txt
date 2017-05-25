@@ -16,7 +16,7 @@ set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include/"
 			"${CMAKE_CURRENT_SOURCE_DIR}/encoding"
 			"${CMAKE_CURRENT_SOURCE_DIR}/parsing"
-			"${CMAKE_CURRENT_SOURCE_DIR}/../PDF-Writer/PDFWriter"
+			"${CMAKE_CURRENT_SOURCE_DIR}/PDF-Writer/PDFWriter"
 			"${CMAKE_CURRENT_SOURCE_DIR}/../tclap-1.2.1/include")
 
 
@@ -34,12 +34,12 @@ add_executable(pdfParser "${CMAKE_CURRENT_SOURCE_DIR}/main.cpp"
 
 #Link libraries
 TARGET_LINK_LIBRARIES(pdfParser 
-		"${CMAKE_CURRENT_SOURCE_DIR}/../PDF-Writer/Build/PDFWriter/libPDFWriter.a"
-		"${CMAKE_CURRENT_SOURCE_DIR}/../PDF-Writer/Build/FreeType/libFreeType.a"
-		"${CMAKE_CURRENT_SOURCE_DIR}/../PDF-Writer/Build/LibAesgm/libLibAesgm.a"
-		"${CMAKE_CURRENT_SOURCE_DIR}/../PDF-Writer/Build/LibJpeg/libLibJpeg.a"
-		"${CMAKE_CURRENT_SOURCE_DIR}/../PDF-Writer/Build/LibTiff/libLibTiff.a"
-		"${CMAKE_CURRENT_SOURCE_DIR}/../PDF-Writer/Build/ZLib/libZlib.a")
+		"${CMAKE_CURRENT_SOURCE_DIR}/PDF-Writer/Build/PDFWriter/libPDFWriter.a"
+		"${CMAKE_CURRENT_SOURCE_DIR}/PDF-Writer/Build/FreeType/libFreeType.a"
+		"${CMAKE_CURRENT_SOURCE_DIR}/PDF-Writer/Build/LibAesgm/libLibAesgm.a"
+		"${CMAKE_CURRENT_SOURCE_DIR}/PDF-Writer/Build/LibJpeg/libLibJpeg.a"
+		"${CMAKE_CURRENT_SOURCE_DIR}/PDF-Writer/Build/LibTiff/libLibTiff.a"
+		"${CMAKE_CURRENT_SOURCE_DIR}/PDF-Writer/Build/ZLib/libZlib.a")
 
 
 
